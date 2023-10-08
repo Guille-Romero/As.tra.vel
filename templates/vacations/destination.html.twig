@@ -1,0 +1,84 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello VacationsController!{% endblock %}
+
+{% block body %}
+    <div class ="wrapper">
+    <main>
+        <h1 class="text-center m-4">Destinations</h1>
+        <div class="destination-container">
+            <section class="back-card p-4 m-1">
+                <div>
+                    <h2 class = "border-bottom border-black pb-3 mb-4">Apollo 11 Landing Site</h2>
+                    <h3>Moon</h3>
+                    <p>Experience a historic journey to the Apollo 11 landing site on the Moon, where the dreams of humanity took flight. Step onto the lunar surface and relive the iconic "giant leap for mankind." Immerse yourself in the remarkable lunar landscape, uncover lunar rocks, and learn about the enduring legacy of the Apollo program.</p>
+                </div>
+                <div>
+                    <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA24439_modest.jpg" alt="Apollo 11 Landing Site" class="vacs-img img-fluid">
+                </div>
+                <a href="{{path('booking')}}" class="btn btn-primary m-3">Book Now</a>
+            </section>
+    
+            <section class="back-card p-4 m-1">
+                <div>
+                    <h2 class = "border-bottom border-black pb-3 mb-4">Olympus Mons</h2>
+                    <h3>Mars</h3>
+                    <p>Embark on an epic Martian adventure to explore Olympus Mons, the largest volcano in our solar system. Roam the Martian plains and ascend the slopes of this colossal shield volcano. Discover unique Martian geology, witness breathtaking vistas, and capture memories against the backdrop of the Red Planet's beauty.</p>
+                </div>
+                <div>
+                    <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA02982_modest.jpg" alt="olympus-mons" class="vacs-img img-fluid">
+                </div>
+                <a href="{{path('booking')}}" class="btn btn-primary m-3">Book Now</a>
+            </section>
+    
+            <section class="back-card p-4 m-1">
+                <div>
+                    <h2 class = "border-bottom border-black pb-3 mb-4">Valle Marineris</h2>
+                    <h3>Mars</h3>
+                    <p>Embark on an extraordinary journey to Valle Marineris, one of the solar system's most remarkable features. Traverse the vast expanse of this Martian canyon, uncovering the secrets of its ancient history etched into the landscape. Capture stunning photographs, marvel at the grandeur of Mars, and become a part of space exploration history.</p>
+                </div>
+                <div>
+                    <img src="https://mars.nasa.gov/system/resources/detail_files/3874_PIA00422a-full2.jpg" alt="valle-marineris" class="vacs-img img-fluid">
+                </div>
+                <a href="{{path('booking')}}" class="btn btn-primary m-3">Book Now</a>
+            </section>
+    
+            <section class="back-card p-4 m-1">
+                <div>
+                    <h2 class = "border-bottom border-black pb-3 mb-4">Enceladus Geysers</h2>
+                    <h3>Saturn's Moon</h3>
+                    <p>Embark on an interstellar adventure to witness the mesmerizing geysers of Enceladus, one of Saturn's icy moons. Stand in awe as plumes of water and ice erupt into the cosmic void. Discover the secrets of this captivating moon, its potential for life, and the mysteries it holds within its icy depths.</p>
+                </div>
+                <div>
+                    <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA23175_modest.jpg" alt="Enceladus Geysers" class="vacs-img img-fluid">
+                </div>
+                <a href="{{path('booking')}}" class="btn btn-primary m-3">Book Now</a>
+            </section>
+    
+            <section class="back-card p-4 m-1">
+                <div>
+                    <h2 class = "border-bottom border-black pb-3 mb-4">Europa's Subsurface Sea</h2>
+                    <h3>Jupiter's Moon</h3>
+                    <p>Embark on a journey to explore the hidden seas beneath the icy surface of Europa, one of Jupiter's enigmatic moons. Dive into the depths of this subsurface ocean, where alien life may lurk. Witness the interplay of ice and water, and unravel the mysteries of Europa's potential habitability.</p>
+                </div>
+                <div>
+                    <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA25695_modest.jpg" alt="Europa's Subsurface Sea" class="vacs-img img-fluid">
+                </div>
+                <a href="{{path('booking')}}" class="btn btn-primary m-3">Book Now</a>
+            </section>
+    
+            <section class="back-card p-4 m-1">
+                <div>
+                    <h2 class = "border-bottom border-black pb-3 mb-4">Titan's Lakes and Rivers</h2>
+                    <h3>Saturn's Moon</h3>
+                    <p>Cruise over the methane lakes and rivers of Titan, Saturn's largest moon, on an unforgettable adventure. Traverse the alien landscape, marvel at the ethereal beauty of liquid hydrocarbons, and explore the possibilities of this unique celestial body. Discover the intriguing geology of Titan and unlock its mysteries.</p>
+                </div>
+                <div>
+                    <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA07787_modest.jpg" alt="Titan's Lakes and Rivers" class="vacs-img img-fluid">
+                </div>
+                <a href="{{path('booking')}}" class="btn btn-primary m-3">Book Now</a>
+            </section>
+        </div>
+    </main>
+    </div>
+{% endblock %}

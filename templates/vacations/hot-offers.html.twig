@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello VacationsController!{% endblock %}
+
+{% block body %}
+    <div class ="wrapper">
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('images/hot-offer-suborbital.png')}}" alt="Orbiter" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Orbiter Adventure</h5>
+                        <p class="card-text">Experience suborbital thrills with the Orbiter. Limited time offer!</p>
+                        <a href="{{path('booking')}}" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('images/hot-offer-shuttle.png')}}" alt="Shuttle" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Shuttle Voyage</h5>
+                        <p class="card-text">Embark on a journey to orbital stations with comfort and style.</p>
+                        <a href="{{path('booking')}}" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="{{asset('images/hot-offer-adastra.png')}}" alt="Ad-Astra" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ad-Astra Cruise</h5>
+                        <p class="card-text">Explore the cosmos with the luxurious Ad-Astra spacecraft.</p>
+                        <a href="{{path('booking')}}" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    </div>
+{% endblock %}

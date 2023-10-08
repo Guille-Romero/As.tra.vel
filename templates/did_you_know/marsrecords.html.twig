@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DidYouKnowController!{% endblock %}
+
+{% block body %}
+    <div class="wrapper">
+        <main class="container my-5">
+            <section>
+                <h2>The Many Colors of Mars</h2>
+                <p>At the surface, Mars exhibits a range of colors, including brown, gold, and tan. The distinctive reddish appearance of Mars is attributed to the oxidization or rusting of iron present in its rocks, regolith (Martian "soil"), and dust. When this dust is suspended in the atmosphere, it gives the planet its predominantly red hue.</p>
+            </section>
+    
+            <img src="https://photojournal.jpl.nasa.gov/browse/PIA00752.jpg" alt="Mars" class="img-fluid my-4">
+    
+            <section class = "mt-3">
+                <h2>Mars' Varied Landscape</h2>
+                <p>Mars, despite being approximately half the diameter of Earth, boasts a surface area comparable to Earth's dry land. Over millions of years, factors such as volcanoes, impact craters, tectonic activity, and dust storms have shaped the planet's intriguing topography.</p>
+                <p>One remarkable feature is Valles Marineris, a canyon system stretching over 3,000 miles (4,800 kilometers), roughly the distance from California to New York. It measures up to 200 miles (320 kilometers) in width and plunges to depths of 4.3 miles (7 kilometers), dwarfing Earth's Grand Canyon by a factor of ten.</p>
+                <p>Mars is also home to Olympus Mons, the largest volcano in the solar system, standing three times taller than Earth's Mt. Everest and featuring a base equivalent in size to the state of New Mexico.</p>
+            </section>
+            <div class = "row">
+                <img src="https://photojournal.jpl.nasa.gov/browse/PIA00422.jpg" alt="valle-marineris" class="img-fluid my-4 col-8">
+                <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA02982_modest.jpg" alt="olympus-mons" class="img-fluid my-4 col-4">
+            </div>
+            <section class = "mt-3">
+                <h2>Mars' Watery History</h2>
+                <p>Evidence suggests that Mars had a watery past, marked by ancient river valley networks, deltas, lakebeds, and distinct surface features that could only have formed in liquid water. Some indications point to colossal floods on Mars approximately 3.5 billion years ago.</p>
+                <p>While water does exist on Mars today, the planet's thin atmosphere prevents the long-term existence of liquid water on its surface. Present-day water is found in the form of water-ice just beneath the surface in the polar regions and as briny (salty) water that occasionally flows down certain hillsides and crater walls.</p>
+            </section>
+            <a href="https://science.nasa.gov/mars/facts/" class="btn btn-primary my-5" target="_blank">Learn More</a>
+        </main>
+    </div>
+{% endblock %}

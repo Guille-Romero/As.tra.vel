@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TransportController!{% endblock %}
+
+{% block body %}
+    <div class ="wrapper">
+<main class="container my-5">
+    <h1 class="text-center">Orbiter Vehicle</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="{{asset('images/orbiter.png')}}" alt="Orbiter Image" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h2>About the Orbiter</h2>
+            <p>The Orbiter is your ticket to a suborbital adventure like no other. Offering breathtaking views and the sensation of "0 gravity," it's perfect for thrill-seekers and space enthusiasts alike.</p>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li><strong>Suborbital Adventure:</strong> Experience a suborbital flight with a trained astronaut pilot.</li>
+                <li><strong>Zero Gravity Sensation:</strong> Enjoy the sensation of zero gravity during the flight.</li>
+                <li><strong>Celestial Views:</strong> Observation windows provide stunning views of the cosmos.</li>
+            </ul>
+
+            <h3>Your Space Odyssey</h3>
+            <p>Embark on an exhilarating suborbital journey aboard the Orbiter and experience the beauty of space like never before. Whether you're a seasoned space enthusiast or a first-time explorer, this unique adventure will provide you with a sense of wonder and excitement that's truly out of this world.</p>
+            
+            <h3>Booking Information</h3>
+            <p>Ready to book your seat on the Orbiter? Visit our "Bookings" page to secure your spot and prepare for a journey into the cosmos.</p>
+        </div>
+    </div>
+</main>
+    </div>
+{% endblock %}

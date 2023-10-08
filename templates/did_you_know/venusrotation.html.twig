@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DidYouKnowController!{% endblock %}
+
+{% block body %}
+    <div class="wrapper">
+        <main class="container my-5">
+            <section class="row">
+                <div class="col-md-8">
+                    <h2 class="mb-4">Fascinating Fact About Venus</h2>
+                    <p>Spending a day on Venus would be quite a disorienting experience – that is, if your spacecraft or spacesuit could protect you from temperatures in the range of 900 degrees Fahrenheit (475 Celsius).</p>
+                    <p>For one thing, your “day” would be 243 Earth days long – longer even than a Venus year (one trip around the Sun), which takes only 225 Earth days.</p>
+                    <p>For another, because of the planet's extremely slow rotation, sunrise to sunset would take 117 Earth days. And by the way, the Sun would rise in the west and set in the east, because Venus spins backward compared to Earth.</p>
+                    <p>While you’re waiting, don’t expect any seasonal relief from the unrelenting temperatures. On Earth, with its spin axis tilted by about 23 degrees, we experience summer when our part of the planet (our hemisphere) receives the Sun’s rays more directly – a result of that tilt. In winter, the tilt means the rays are less direct. No such luck on Venus: Its very slight tilt is only three degrees, which is too little to produce noticeable seasons.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://photojournal.jpl.nasa.gov/figures/PIA23791_fig2.jpg" alt="Venus Image" class="img-fluid">
+                </div>
+            </section>
+            <a href="https://science.nasa.gov/venus/facts/" class="btn btn-primary my-5" target="_blank">Learn More</a>
+        </main>
+    </div>
+{% endblock %}

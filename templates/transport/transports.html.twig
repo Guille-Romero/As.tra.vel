@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TransportController!{% endblock %}
+
+{% block body %}
+    <div class ="wrapper">
+    <main>
+        <div class = "destination-container">
+            <section class="transport-info">
+                <h2 class = "text-center">Available Transports</h2>
+                <p class = "text-center">Discover a variety of space transports for your interstellar adventure.</p>
+        
+                <a href="{{path('orbiter')}}" class="transport-link">
+                    <div class="transport">
+                        <img src="{{asset('images/orbiter.png')}}" alt="Orbiter Image" class="transport-image">
+                        <div class="transport-info-text">
+                            <h3>Orbiter</h3>
+                            <p>The Orbiter is your ticket to a suborbital adventure like no other. Offering breathtaking views and the sensation of "0 gravity," it's perfect for thrill-seekers and space enthusiasts alike. Your journey aboard the Orbiter includes:</p>
+                            <ul>
+                                <li>Suborbital flight with a trained astronaut pilot.</li>
+                                <li>Zero gravity experience during the flight.</li>
+                                <li>Observation windows for stunning celestial views.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{path('shuttle')}}" class="transport-link">
+                    <div class="transport">
+                        <img src="{{asset('images/shuttle.png')}}" alt="Shuttle Image" class="transport-image">
+                        <div class="transport-info-text">
+                            <h3>Shuttle</h3>
+                            <p>The Shuttle is the workhorse of space travel, designed for transferring passengers from Earth to orbital stations with comfort and efficiency. It serves as a vital link between our planet and the cosmos, featuring:</p>
+                            <ul>
+                                <li>Safe and reliable transportation to orbital stations.</li>
+                                <li>Spacious cabins with comfortable seating.</li>
+                                <li>Trained crew members ensuring a smooth journey.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{path('ad_astra')}}" class="transport-link">
+                    <div class="transport">
+                        <img src="{{asset('images/ad-astra.png')}}" alt="Ad-Astra Image" class="transport-image">
+                        <div class="transport-info-text">
+                            <h3>Ad-Astra</h3>
+                            <p>The Ad-Astra is your medium-range spacecraft for travel between space stations. While it doesn't land on planets, it provides a comfortable and efficient way to navigate the cosmos. Your journey includes:</p>
+                            <ul>
+                                <li>Medium-range travel between space stations.</li>
+                                <li>Luxurious cabins with panoramic windows.</li>
+                                <li>Access to onboard amenities and entertainment.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{path('cruiser')}}" class="transport-link">
+                    <div class="transport">
+                        <img src="{{asset('images/cruiser.png')}}" alt="Cruiser Image" class="transport-image">
+                        <div class="transport-info-text">
+                            <h3>Cruiser</h3>
+                            <p>The Cruiser is a grand vessel designed for an extended tour of the solar system with a large passenger capacity. While it doesn't land on planets, it offers an unforgettable space cruise experience, featuring:</p>
+                            <ul>
+                                <li>Spacious cabins with luxurious amenities.</li>
+                                <li>Multiple dining options and entertainment venues.</li>
+                                <li>Guided tours of celestial wonders throughout the solar system.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </section>
+        </div>
+    </main>
+    </div>
+{% endblock %}

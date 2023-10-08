@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MainController!{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="" id ="welcome">
+            <h1>Explore the Solar System!</h1>
+            <p>Book your trip<br> with us</p>
+            <a href = "{{path('booking')}}"><button>Choose your destination</button></a>
+        </div>
+        <section id="article-section">
+            <article class = "main-articles m-4 row" id="first-article">
+                <div class = "col">
+                    <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA25912_modest.jpg" alt="morning and afternoon on Mars" class = "homeimg img-flux">
+                </div>
+                <div class = "col">
+                    <h2 class="display-4"><strong>Visit Mars!</strong></h2>
+                    <p id="lead">Experience the breathtaking beauty of the Martian landscape.</p>
+                    <p>Are you ready for an adventure of a lifetime? Mars awaits your arrival with its stunning red deserts, towering volcanoes, and mysterious canyons. Whether you're a space enthusiast or an explorer at heart, a trip to Mars is an experience you'll never forget.</p>
+                    <p>Join us on a journey to the Red Planet and witness the magnificent colors of Martian mornings and afternoons. From the rust-colored terrain to the crystal-clear Martian skies, every moment on Mars is a unique opportunity to explore the wonders of the universe.</p>
+                    <a href="https://mars.nasa.gov/" class="btn btn-primary custom-btn mt-4" target="_blank">Learn More</a>
+                </div>
+
+                
+            </article>
+            <article class="main-articles m-4 row" id="second-article">
+                <div class="col">
+                    <h2 class="display-4"><strong>Discover the Moon!</strong></h2>
+                    <p id="lead">Embark on an extraordinary journey to Earth's celestial companion.</p>
+                    <p>Are you ready for an out-of-this-world adventure? Explore the Moon's captivating landscapes, experience its lunar phases, and marvel at its mesmerizing beauty. Whether you're an astronomy enthusiast or a nature lover, the Moon offers a celestial escape like no other.</p>
+                    <p>Join us on a lunar expedition and witness the ever-changing phases of the Moon, from the gentle crescent to the full moon's radiant glow. Delve into the mysteries of Earth's closest neighbor and uncover its fascinating history and secrets.</p>
+                    <a href="https://science.nasa.gov/moon/facts/" class="btn btn-primary custom-btn mt-4" target="_blank">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA00094_modest.jpg" alt="Moon crater" class="homeimg img-flux">
+                </div>
+            </article>
+        </section>
+        <div class = "section-div mt-5">
+        </div>
+        <section>
+            <div class="m-4">
+                <h2>Unlock the Wonders of the Solar System!</h2>
+                <p>Embark on an extraordinary journey through the cosmos with us. Discover the marvels of our solar system, from the breathtaking landscapes of Mars to the mysteries of distant planets.</p>
+                <p>Are you eager to explore the secrets of the universe? Our <a href="#">Did you know?</a> section is your gateway to a world of fascinating facts about our solar system.</p>
+            </div>
+        </section>
+        <div class = "section-div">
+        </div>
+    </main>
+{% endblock %}
