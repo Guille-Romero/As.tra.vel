@@ -20,7 +20,7 @@ As.tra.vel is a web-based platform that aims to revolutionize planetary tourism.
 
 ## Usage
 
-Visit [As.tra.vel](https://guille-romero.github.io/As.tra.vel/) to explore the platform, browse destinations, and experience our vision of planetary tourism. Please note that this project is a public showcase and not available for download.
+Visit [As.tra.vel](https://guille-romero.github.io/As.tra.vel/index) to explore the platform, browse destinations, and experience our vision of planetary tourism. Please note that this project is a public showcase and not available for download.
 
 ## Contributing
 
